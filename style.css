@@ -84,9 +84,11 @@
 }
 
 #head-para {
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 24rem;
     color: #959595;
+    font-size: 0.9rem;
 }
 
 .export {
@@ -107,4 +109,119 @@
     position: absolute;
     top: 12rem;
     left: 38rem;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 18rem;
+    left: 32rem;
+    
+}
+
+.brand img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.brand p {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #190064;
+}
+
+.data {
+    font-family: 'Caveat', cursive;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #aeaeae;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 25rem;
+    left: 29rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    position: absolute;
+    top: 30rem;
+    left: 34rem;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem;
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+}
+
+.row1:hover {
+    background-color: #E3E2FE;
+    cursor: pointer;
+    color: black;
+}
+
+.row1 i {
+    margin-right: 0.3rem;
+}
+
+.live,
+.try {
+    padding: 0.9rem;
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #908f8f;
+}
+
+.live:hover,
+.try:hover {
+    background-color: #E3E2FE;
+    cursor: pointer;
+}
+
+.live i,
+.try i {
+    margin-right: 0.3rem;
+}
+
+.open,
+.cntrl {
+    font-family: 'Roboto', sans-serif;
+    color: #908f8f;
+}
+
+.zoom-btn {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+}
+
+.help-btn {
+    position: absolute;
+    right: -73rem;
+}
+
+.help-btn:hover {
+    background-color: #f2f1f1;
+}
+
+.shield-btn {
+    position: absolute;
+    right: -70rem;
+    border: none;
+}
+
+.shield-btn:hover {
+    background-color: white;
+}
+
+.arrow-btn:hover {
+    background-color: #f2f1f1;
 }
